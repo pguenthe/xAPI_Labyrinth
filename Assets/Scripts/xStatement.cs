@@ -29,7 +29,7 @@ public class XStatement {
 			verb.toJSONstring() + ", " + 
 			obj.toJSONstring() + 
 			result.ToJSONstring() + 
-			", \"timestamp\": \"" + timestamp.ToString("s", System.Globalization.CultureInfo.InvariantCulture) + "\"" +
+			", \"timestamp\": \"" + timestamp.ToString("o", System.Globalization.CultureInfo.InvariantCulture) + "\"" +
 			"}";
 	}
 }
